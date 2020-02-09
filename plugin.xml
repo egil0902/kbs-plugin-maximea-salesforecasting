@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         id="org.forecasting.maximea.process.GenerateSalesHistory"
+         name="GenerateSalesHistory"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.forecasting.maximea.process.GenerateSalesHistory">
+      </process>
+   </extension>
+   <extension
+         id="org.forecasting.maximea.process.CreatePeriods"
+         name="CreatePeriods"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.forecasting.maximea.process.CreatePeriods">
+      </process>
+   </extension>
+   <extension
+         id="org.forecasting.maximea.process.ForecastRunCreate"
+         name="ForecastRunCreate"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.forecasting.maximea.process.ForecastRunCreate">
+      </process>
+   </extension>
+   <extension
+         id="org.forecasting.maximea.process.GenerateForecast"
+         name="GenerateForecast"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.forecasting.maximea.process.GenerateForecast">
+      </process>
+   </extension>
+   <extension
+         id="org.forecasting.maximea.process.GenerateSaleOrder"
+         name="GenerateSaleOrder"
+         point="org.adempiere.base.Process">
+      <process
+            class="org.forecasting.maximea.process.GenerateSaleOrder">
+      </process>
+   </extension>
+
+</plugin>
