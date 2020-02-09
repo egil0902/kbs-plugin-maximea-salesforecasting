@@ -29,5 +29,5 @@ Export-Package: org.forecasting.maximea.base,
  org.forecasting.maximea.process,
  org.forecasting.maximea.util
 Bundle-ActivationPolicy: lazy
-Bundle-Activator: org.adempiere.plugin.utils.Incremental2PackActivator
+Bundle-Activator: com.kylinsystems.kbs.odt.ODT2PackActivator
 Automatic-Module-Name: com.kylinsystems.kbs.plugins.maximea.salesforecasting
