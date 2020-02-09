@@ -29,6 +29,6 @@ Workaround:
 
 Change `<AD_Reference_ID reference="id">18</AD_Reference_ID>` to `<AD_Reference_ID reference="id">19</AD_Reference_ID>` 
 
-18 (Reference Table) is not working if without Reference Key Setup, change to 19 (Reference TableDirect)
+18 (Reference Table) is not working if without Reference Key Setup, change to 19 (Reference TableDirect). 2Pack issue for Column Handler also?
 
 ## TODO
